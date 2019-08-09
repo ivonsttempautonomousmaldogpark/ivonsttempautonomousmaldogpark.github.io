@@ -1,6 +1,6 @@
 html {
 	background-color: #ddd;
-	font-size: 2em;
+	font-size: 0.9em;
 	font-family: sans-serif;
 }
 
@@ -12,16 +12,16 @@ html {
 }
 
 .head {
-	margin: 10%;
-	padding: 5%;
+	margin: 0%;
+	padding: 15%;
 	grid-column-start: 1;
 	grid-column-end: 6;
 	grid-row: 1;
 }
 
 .content {
-  margin: 20%;
-  padding: 10%
+  margin: 10%;
+  padding: 5%
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row: 2;
