@@ -1,0 +1,44 @@
+html {
+	background-color: #ddd;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.document {
+	display: grid
+	grid-template-columns: 10% 20% 20% 20% 10%;
+	grid-template-rows: 40% 60%;
+	width: 100%;
+}
+
+.head {
+	margin: 10%;
+	padding: 5%;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row: 1;
+}
+
+.content {
+  margin: 20%;
+  padding: 10%
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row: 2;
+}
+
+#contact {
+	font-size: 80%;
+	color: #222;
+}
+
+img {
+	width: 100%;
+	border-width: 1px;
+	border-color: #000;
+	border-style: solid;
+}
+
+#aside {
+	font-size: 75%;
+}

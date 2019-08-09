@@ -1,232 +1,44 @@
-<!DOCTYPE html>
-<html><head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script>
-<style>
-table.eq_table {
-	border-collapse: collapse;
- 	border: 0;
-	width: 100%;
-}
-table.eq_table td, table.eq_table th {
-	border: 0;
-}
-table.eq_table tfoot td {
- 	border: 0;
-}
-table.eq_table tfoot .links {
- 	text-align: right;
- 	border: 0;
-}
-
-td.counter {
-	text-align: right;
-	border: 0;
-}
-
-td.eq_code {
-	width: 100%;
-	border: 0;
-	text-align: center;
-}
-
-.eq_table > tr, td, th, {
-	border: 0;
-}
-
-figure {
-	width: 100%;
-	text-align: center;
-}
-
-figure figcaption {
-	text-align: center;
-	font-size: 11pt;
-}
-
-figure img {
-	max-width: 100%;
-}
-
-code {
-    font-family: monospace;
-}
-
-img {
-	max-width: 100%;
-}
-
-.authors
-{
-	text-align: center;
-	font-size: 14pt;
-	font-weight: bold;
-}
-
-.authors:empty
-{
-	display: none;
-}
-
-
-.affiliation
-{
-	text-align: center;
-}
-
-.affiliation:empty
-{
-	display: none;
-}
-
-.title
-{
-	text-align: center;
-	margin-bottom: 5pt;
-}
-
-.title:empty
-{
-	display: none;
-}
-
-.header{
-  margin-bottom: 20pt;
-}
-
-.header:empty {
-   display: none;
-}
-
-.slide {
-  display: flex;
-  width: 221mm;
-  height: 166mm;
-  margin: 0 auto 20px auto;
-  padding: 0;
-  align-items: center;
-  border: 1px solid #000;
-}
-
-.slide_169 {
-  width: 294mm;
-  height: 166mm;
-}
-
-
-.slide_body {
-  display: block;
-  width: 191mm;
-  height: 136mm;
-  margin: auto;
-  overflow: hidden;
-}
-
-
-.slide_169 > .slide_body {
-  width: 264mm;
-}
-
-.slide figure {
-  width: auto;
-}
-
-.slide figcaption {
-  font-size: 14pt;
-}
-
-
-.slide_body .charter {
- font-size: 12pt;
- max-width: 180mm;
-}
-
-.header > .slide_body {
-    height: auto;
-}
-
-.figure > .charter {
-  margin: auto;
-}
-
-.slide_body:empty {
-  display: none;
-}
-
-.slide:empty{
-  display: none;
-}
-
-
-@media print {
-  body  {
-    margin: 0;
-    padding: 0;
-  }
-
-  .slide {
-    page-break-after: always;
-    margin: 0;
-    padding: 0;
-    width: 221mm;
-    min-height: 165.5mm;
-    height: 165.5mm;
-    max-height: 165.5mm;
-    border: none;
-    overflow: hidden;
-    border: 0;
-  }
-
-  .slide_169 {
-    width: 294mm;
-  }
-}
-
-*:not(span){
-  unicode-bidi: plaintext;
-}
-
-</style>
-</head>
-<body>
-<div class="document">
-<div class="header"></div><div class="inner">
-<h2 id="toc_1">Ivon Street Temporary Autonomous Small Dog Park</h2>
-
-<p>This used to be a house.
-<img src="house.jpg" alt="house">
-then it was a vacant lot.</p>
-
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ivon Street Temporary Autonomous Small Dog Park</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+  <div class="document">
+    <div class="head">
+      <h2>Ivon Street Temporary Autonomous Small Dog Park</h2>
+      <p>This used to be a house.
+        <img src="house.jpg" alt="house">
+        then it was a vacant lot.</p>
+      </div>
+  <div class="content">
 <p>Small dogs in this city have had a tough summer.
 small dogs in this city have tough lives. Small dogs 
 need a place to chill.</p>
-
-<h3 id="toc_1.1">We do hereby declare the formerly vacant lot on the northwest corner of the intersection of SE 13th Avenue and SE Ivon Street to heretofore be known as the Ivon Street Temporary Autonomous Small Dog Park</h3>
-
+<hr/>
+<h3>We do hereby declare the formerly vacant lot on the northwest corner of the intersection of SE 13th Avenue and SE Ivon Street to heretofore be known as the Ivon Street Temporary Autonomous Small Dog Park until such time as it no longer is.</h3>
+<hr/>
 <p>The uneven terrain and loose ground cover of the Ivon Street Temporary
 Autonomous Small Dog Park provides
 ample opportunity for frolicing, burrowing, and sniffing
 all in a lovely setting </p>
 
-<p>The  Ivon Street Temporary Autonomous Small Dog Park
+<p id="aside">The  Ivon Street Temporary Autonomous Small Dog Park
 is only a place if people treat it like a place. 
 Open space has become a little scarce in this city 
 and we should take care of what we can even if it&#39;s just
 for a little while. Please try and leave the  Ivon Street Temporary Autonomous Small Dog Park
 a little nicer than it was when you got there.</p>
+  </div>
 
+<div id="contact">
 <p>Contact:</p>
 
-<p><a href="mailto:ivonsttempautonomousmaldogpark@gmail.com">ivonsttempautonomousmaldogpark@gmail.com</a></p>
+<p><a href="mailto:ivonsttempautonomousmaldogpark@gmail.com">ivonsttempautonomousmaldogpark@gmail.com</a></p> 
 </div>
 </div>
-<script>renderMathInElement(document.body);</script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-</body>
+    </body>
 </html>
